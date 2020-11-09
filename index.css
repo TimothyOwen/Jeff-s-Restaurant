@@ -1,0 +1,28 @@
+div{
+    margin: 20px 20px;
+    padding: 20px 40px;
+}
+
+div > div{
+    font-size: 20pt;
+    font-weight: bold;
+    background-color: rgb(211, 194, 194);
+    display: inline;
+    padding: 20px 20px;
+    margin: 20px 20px;
+    box-shadow: 0 48px 80px -32px rgba(0,0,0,0.3);
+    border: solid 5px;
+    border-color: black;
+}
+
+div > div:hover{
+    background-color: white;
+    cursor: pointer;
+}
+
+#content{
+    background-color: rgb(211, 194, 194);
+    border: solid 5px;
+    border-color: black;
+    font-weight: normal;
+}
