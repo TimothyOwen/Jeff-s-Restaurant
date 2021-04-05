@@ -9,7 +9,7 @@ function Home(){
     content.id = "content";
     const h1 = document.createElement("h1");
     const img = document.createElement("img");
-    img.src = "burger.jpg";
+    img.src = "docs/burger.jpg";
     img.alt = "A burger should be here";
     const h3 = document.createElement("h3");
     h1.innerHTML = "Jeff's Burger Joint";
